@@ -14,8 +14,7 @@ eva = {
     1:'Suma',
     2:'Resta',
     3:'Multiplicacion',
-    4:'Division',
-    5:'Potencia'
+    4:'Division'
 }
 
 def ope():
@@ -23,7 +22,6 @@ def ope():
     elif o == 2: return a - b
     elif o == 3: return a * b
     elif o == 4: return a / b
-    elif o == 5: return a ** b
     else: print('Error de operación')
 
 print('La ', eva[o] ,' entre ' , a , ' y ' , b , ' es igual a ' , ope())
